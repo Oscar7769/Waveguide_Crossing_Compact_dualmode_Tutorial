@@ -1,0 +1,244 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1700 940" width="1700" height="940" font-family="Arial, 'DejaVu Sans', Helvetica, sans-serif" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYToyMGJjNmE4NS0zYmEyLTQ1MmItYjg5OC0zNjVmYzMzMjc5M2EAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaD7eoUOypPETrtD5/bI1SRkAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDowNzVhMTQwZC04Y2FiLTQ4OWYtYTVkOC1kN2JlMDczZGU1NjNscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNo7km4gj8Rj8n9qD20J329PgAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggY2k1Hkz6eYzy3xp4kCYzJgrxDnarZkBQ67fldbr8uhmkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaJsuvXZ9CQSQL+6gb4GvYsIAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCC7pxCCP6sbj0H0L3+fpwxpxXjYu2/1j/KJ/oDBXaF1z2RuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBjSZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjIwYmM2YTg1LTNiYTItNDUyYi1iODk4LTM2NWZjMzMyNzkzYS9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjNlOGU0MTZlLTE2MzItNDE3MS05YzEyLTUyZWI4NTg4OTk5NHJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCBjaTUeTPp5jPLfGniQJjMmCvEOdqtmQFDrt+V1uvy6GaJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFgge8yuSIfXFqmwyCb6QYFJe7aZiw/HmwKvEhR7pI8afsyiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggi6xjlcUut1XRgicGoXUmo6HiIY15isDE1SMH1WdH8wd0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQENBhx+4Bj97YzIkGch8e6FvXotsUDJYpVOX+ybPB1ZZv+ytaB+pwudOyrkEdnNeRwawZSyAdA7XRTOjLNbCzws=</c2pa:manifest></metadata>
+<rect width="1700" height="940" fill="#ffffff"/>
+<rect x="40" y="24" width="1620" height="318" rx="22" fill="#fff8e1" stroke="#f0a500" stroke-width="3" stroke-dasharray="12 8"/>
+<text x="66" y="62" font-size="24" font-weight="bold" fill="#7a5200" text-anchor="start" >Structural encoding: Gaussian upsampling</text>
+<text x="66" y="86" font-size="15" font-weight="normal" fill="#7a5200" text-anchor="start" >decoder that maps a compact binary vector to a high-resolution geometry with smooth boundaries</text>
+<rect x="90" y="108" width="225" height="215" rx="16" fill="#fff" stroke="#1f5f8b" stroke-width="3.5"/>
+<text x="202.5" y="142" font-size="18" font-weight="bold" fill="#222" text-anchor="middle" >1D binary vector</text>
+<text x="202.5" y="303" font-size="15" font-weight="normal" fill="#333" text-anchor="middle" >x<tspan dy="4" font-size="72%">i</tspan><tspan dy="-4"> ∈ {0, 1},  i = 1 … N</tspan></text>
+<line x1="319" y1="215.5" x2="336" y2="215.5" stroke="#222" stroke-width="4"/>
+<polygon points="345,215.5 331,207.5 331,223.5" fill="#222"/>
+<rect x="349" y="108" width="225" height="215" rx="16" fill="#fff" stroke="#1f5f8b" stroke-width="3.5"/>
+<text x="461.5" y="142" font-size="18" font-weight="bold" fill="#222" text-anchor="middle" >Reshape into 2D grid</text>
+<text x="461.5" y="303" font-size="15" font-weight="normal" fill="#333" text-anchor="middle" >N = Nx · Ny</text>
+<line x1="578" y1="215.5" x2="595" y2="215.5" stroke="#222" stroke-width="4"/>
+<polygon points="604,215.5 590,207.5 590,223.5" fill="#222"/>
+<rect x="608" y="108" width="225" height="215" rx="16" fill="#fff" stroke="#f0a500" stroke-width="3.5"/>
+<text x="720.5" y="142" font-size="18" font-weight="bold" fill="#222" text-anchor="middle" >Gaussian convolution</text>
+<text x="720.5" y="303" font-size="15" font-weight="normal" fill="#333" text-anchor="middle" >(smoothing)</text>
+<line x1="837" y1="215.5" x2="854" y2="215.5" stroke="#222" stroke-width="4"/>
+<polygon points="863,215.5 849,207.5 849,223.5" fill="#222"/>
+<rect x="867" y="108" width="225" height="215" rx="16" fill="#fff" stroke="#f0a500" stroke-width="3.5"/>
+<text x="979.5" y="142" font-size="18" font-weight="bold" fill="#222" text-anchor="middle" >Tanh projection</text>
+<text x="979.5" y="303" font-size="15" font-weight="normal" fill="#333" text-anchor="middle" >(sharpening)</text>
+<line x1="1096" y1="215.5" x2="1113" y2="215.5" stroke="#222" stroke-width="4"/>
+<polygon points="1122,215.5 1108,207.5 1108,223.5" fill="#222"/>
+<rect x="1126" y="108" width="225" height="215" rx="16" fill="#fff" stroke="#f0a500" stroke-width="3.5"/>
+<text x="1238.5" y="142" font-size="18" font-weight="bold" fill="#222" text-anchor="middle" >MaterialGrid mapping</text>
+<text x="1238.5" y="303" font-size="15" font-weight="normal" fill="#333" text-anchor="middle" >(to Meep permittivity)</text>
+<line x1="1355" y1="215.5" x2="1372" y2="215.5" stroke="#222" stroke-width="4"/>
+<polygon points="1381,215.5 1367,207.5 1367,223.5" fill="#222"/>
+<rect x="1385" y="108" width="225" height="215" rx="16" fill="#fff" stroke="#1f5f8b" stroke-width="3.5"/>
+<text x="1497.5" y="142" font-size="18" font-weight="bold" fill="#222" text-anchor="middle" >Binary geometry</text>
+<text x="1497.5" y="303" font-size="15" font-weight="normal" fill="#333" text-anchor="middle" >with continuous boundaries</text>
+<rect x="107.5" y="193" width="38" height="46" fill="#fff" stroke="#222" stroke-width="2"/>
+<text x="126.5" y="223" font-size="17" font-weight="bold" fill="#222" text-anchor="middle" >x<tspan dy="4" font-size="72%">1</tspan></text>
+<rect x="145.5" y="193" width="38" height="46" fill="#fff" stroke="#222" stroke-width="2"/>
+<text x="164.5" y="223" font-size="17" font-weight="bold" fill="#222" text-anchor="middle" >x<tspan dy="4" font-size="72%">2</tspan></text>
+<rect x="183.5" y="193" width="38" height="46" fill="#fff" stroke="#222" stroke-width="2"/>
+<text x="202.5" y="223" font-size="17" font-weight="bold" fill="#222" text-anchor="middle" >x<tspan dy="4" font-size="72%">3</tspan></text>
+<rect x="221.5" y="193" width="38" height="46" fill="#fff" stroke="#222" stroke-width="2"/>
+<text x="240.5" y="223" font-size="17" font-weight="bold" fill="#222" text-anchor="middle" >…</text>
+<rect x="259.5" y="193" width="38" height="46" fill="#fff" stroke="#222" stroke-width="2"/>
+<text x="278.5" y="223" font-size="17" font-weight="bold" fill="#222" text-anchor="middle" >x<tspan dy="4" font-size="72%">N</tspan></text>
+<rect x="407.5" y="166.0" width="18.0" height="18.0" fill="#111" stroke="#555" stroke-width="1"/>
+<rect x="425.5" y="166.0" width="18.0" height="18.0" fill="#111" stroke="#555" stroke-width="1"/>
+<rect x="443.5" y="166.0" width="18.0" height="18.0" fill="#fff" stroke="#555" stroke-width="1"/>
+<rect x="461.5" y="166.0" width="18.0" height="18.0" fill="#111" stroke="#555" stroke-width="1"/>
+<rect x="479.5" y="166.0" width="18.0" height="18.0" fill="#fff" stroke="#555" stroke-width="1"/>
+<rect x="497.5" y="166.0" width="18.0" height="18.0" fill="#111" stroke="#555" stroke-width="1"/>
+<rect x="407.5" y="184.0" width="18.0" height="18.0" fill="#111" stroke="#555" stroke-width="1"/>
+<rect x="425.5" y="184.0" width="18.0" height="18.0" fill="#111" stroke="#555" stroke-width="1"/>
+<rect x="443.5" y="184.0" width="18.0" height="18.0" fill="#111" stroke="#555" stroke-width="1"/>
+<rect x="461.5" y="184.0" width="18.0" height="18.0" fill="#111" stroke="#555" stroke-width="1"/>
+<rect x="479.5" y="184.0" width="18.0" height="18.0" fill="#111" stroke="#555" stroke-width="1"/>
+<rect x="497.5" y="184.0" width="18.0" height="18.0" fill="#111" stroke="#555" stroke-width="1"/>
+<rect x="407.5" y="202.0" width="18.0" height="18.0" fill="#111" stroke="#555" stroke-width="1"/>
+<rect x="425.5" y="202.0" width="18.0" height="18.0" fill="#fff" stroke="#555" stroke-width="1"/>
+<rect x="443.5" y="202.0" width="18.0" height="18.0" fill="#111" stroke="#555" stroke-width="1"/>
+<rect x="461.5" y="202.0" width="18.0" height="18.0" fill="#111" stroke="#555" stroke-width="1"/>
+<rect x="479.5" y="202.0" width="18.0" height="18.0" fill="#fff" stroke="#555" stroke-width="1"/>
+<rect x="497.5" y="202.0" width="18.0" height="18.0" fill="#fff" stroke="#555" stroke-width="1"/>
+<rect x="407.5" y="220.0" width="18.0" height="18.0" fill="#fff" stroke="#555" stroke-width="1"/>
+<rect x="425.5" y="220.0" width="18.0" height="18.0" fill="#111" stroke="#555" stroke-width="1"/>
+<rect x="443.5" y="220.0" width="18.0" height="18.0" fill="#fff" stroke="#555" stroke-width="1"/>
+<rect x="461.5" y="220.0" width="18.0" height="18.0" fill="#111" stroke="#555" stroke-width="1"/>
+<rect x="479.5" y="220.0" width="18.0" height="18.0" fill="#fff" stroke="#555" stroke-width="1"/>
+<rect x="497.5" y="220.0" width="18.0" height="18.0" fill="#111" stroke="#555" stroke-width="1"/>
+<rect x="407.5" y="238.0" width="18.0" height="18.0" fill="#111" stroke="#555" stroke-width="1"/>
+<rect x="425.5" y="238.0" width="18.0" height="18.0" fill="#111" stroke="#555" stroke-width="1"/>
+<rect x="443.5" y="238.0" width="18.0" height="18.0" fill="#111" stroke="#555" stroke-width="1"/>
+<rect x="461.5" y="238.0" width="18.0" height="18.0" fill="#fff" stroke="#555" stroke-width="1"/>
+<rect x="479.5" y="238.0" width="18.0" height="18.0" fill="#111" stroke="#555" stroke-width="1"/>
+<rect x="497.5" y="238.0" width="18.0" height="18.0" fill="#fff" stroke="#555" stroke-width="1"/>
+<rect x="407.5" y="256.0" width="18.0" height="18.0" fill="#fff" stroke="#555" stroke-width="1"/>
+<rect x="425.5" y="256.0" width="18.0" height="18.0" fill="#111" stroke="#555" stroke-width="1"/>
+<rect x="443.5" y="256.0" width="18.0" height="18.0" fill="#fff" stroke="#555" stroke-width="1"/>
+<rect x="461.5" y="256.0" width="18.0" height="18.0" fill="#111" stroke="#555" stroke-width="1"/>
+<rect x="479.5" y="256.0" width="18.0" height="18.0" fill="#111" stroke="#555" stroke-width="1"/>
+<rect x="497.5" y="256.0" width="18.0" height="18.0" fill="#111" stroke="#555" stroke-width="1"/>
+<line x1="632.5" y1="258" x2="808.5" y2="258" stroke="#555" stroke-width="2"/>
+<polygon points="640.5,258.0 643.2,257.9 645.8,257.9 648.5,257.8 651.2,257.7 653.8,257.5 656.5,257.3 659.2,257.0 661.8,256.5 664.5,255.9 667.2,255.1 669.8,254.0 672.5,252.5 675.2,250.7 677.8,248.4 680.5,245.5 683.2,242.2 685.8,238.2 688.5,233.7 691.2,228.6 693.8,223.0 696.5,217.0 699.2,210.9 701.8,204.6 704.5,198.6 707.2,192.9 709.8,187.9 712.5,183.7 715.2,180.6 717.8,178.7 720.5,178.0 723.2,178.7 725.8,180.6 728.5,183.7 731.2,187.9 733.8,192.9 736.5,198.6 739.2,204.6 741.8,210.9 744.5,217.0 747.2,223.0 749.8,228.6 752.5,233.7 755.2,238.2 757.8,242.2 760.5,245.5 763.2,248.4 765.8,250.7 768.5,252.5 771.2,254.0 773.8,255.1 776.5,255.9 779.2,256.5 781.8,257.0 784.5,257.3 787.2,257.5 789.8,257.7 792.5,257.8 795.2,257.9 797.8,257.9 800.5,258.0 800.5,258 640.5,258" fill="#e0e0e0" stroke="none"/>
+<polyline points="640.5,258.0 643.2,257.9 645.8,257.9 648.5,257.8 651.2,257.7 653.8,257.5 656.5,257.3 659.2,257.0 661.8,256.5 664.5,255.9 667.2,255.1 669.8,254.0 672.5,252.5 675.2,250.7 677.8,248.4 680.5,245.5 683.2,242.2 685.8,238.2 688.5,233.7 691.2,228.6 693.8,223.0 696.5,217.0 699.2,210.9 701.8,204.6 704.5,198.6 707.2,192.9 709.8,187.9 712.5,183.7 715.2,180.6 717.8,178.7 720.5,178.0 723.2,178.7 725.8,180.6 728.5,183.7 731.2,187.9 733.8,192.9 736.5,198.6 739.2,204.6 741.8,210.9 744.5,217.0 747.2,223.0 749.8,228.6 752.5,233.7 755.2,238.2 757.8,242.2 760.5,245.5 763.2,248.4 765.8,250.7 768.5,252.5 771.2,254.0 773.8,255.1 776.5,255.9 779.2,256.5 781.8,257.0 784.5,257.3 787.2,257.5 789.8,257.7 792.5,257.8 795.2,257.9 797.8,257.9 800.5,258.0" fill="none" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="720.5" y1="174" x2="720.5" y2="258" stroke="#555" stroke-width="1.5" stroke-dasharray="5 4"/>
+<line x1="891.5" y1="220" x2="1067.5" y2="220" stroke="#aaa" stroke-width="1.5" stroke-dasharray="5 4"/>
+<line x1="979.5" y1="164" x2="979.5" y2="276" stroke="#aaa" stroke-width="1.5" stroke-dasharray="5 4"/>
+<polyline points="899.5,266.0 902.2,266.0 904.8,266.0 907.5,266.0 910.2,265.9 912.8,265.9 915.5,265.9 918.2,265.9 920.8,265.8 923.5,265.8 926.2,265.7 928.8,265.6 931.5,265.5 934.2,265.3 936.8,265.1 939.5,264.8 942.2,264.3 944.8,263.8 947.5,263.1 950.2,262.2 952.8,261.0 955.5,259.5 958.2,257.5 960.8,255.0 963.5,252.0 966.2,248.2 968.8,243.8 971.5,238.6 974.2,232.8 976.8,226.5 979.5,220.0 982.2,213.5 984.8,207.2 987.5,201.4 990.2,196.2 992.8,191.8 995.5,188.0 998.2,185.0 1000.8,182.5 1003.5,180.5 1006.2,179.0 1008.8,177.8 1011.5,176.9 1014.2,176.2 1016.8,175.7 1019.5,175.2 1022.2,174.9 1024.8,174.7 1027.5,174.5 1030.2,174.4 1032.8,174.3 1035.5,174.2 1038.2,174.2 1040.8,174.1 1043.5,174.1 1046.2,174.1 1048.8,174.1 1051.5,174.0 1054.2,174.0 1056.8,174.0 1059.5,174.0" fill="none" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1077.5" y="178" font-size="14" font-weight="normal" fill="#555" text-anchor="start" >1</text>
+<text x="1077.5" y="270" font-size="14" font-weight="normal" fill="#555" text-anchor="start" >−1</text>
+<rect x="1184.5" y="166.0" width="18.0" height="18.0" fill="rgb(0,0,0)" stroke="#666" stroke-width="1"/>
+<rect x="1202.5" y="166.0" width="18.0" height="18.0" fill="rgb(73,73,73)" stroke="#666" stroke-width="1"/>
+<rect x="1220.5" y="166.0" width="18.0" height="18.0" fill="rgb(86,86,86)" stroke="#666" stroke-width="1"/>
+<rect x="1238.5" y="166.0" width="18.0" height="18.0" fill="rgb(160,160,160)" stroke="#666" stroke-width="1"/>
+<rect x="1256.5" y="166.0" width="18.0" height="18.0" fill="rgb(173,173,173)" stroke="#666" stroke-width="1"/>
+<rect x="1274.5" y="166.0" width="18.0" height="18.0" fill="rgb(247,247,247)" stroke="#666" stroke-width="1"/>
+<rect x="1184.5" y="184.0" width="18.0" height="18.0" fill="rgb(30,30,30)" stroke="#666" stroke-width="1"/>
+<rect x="1202.5" y="184.0" width="18.0" height="18.0" fill="rgb(43,43,43)" stroke="#666" stroke-width="1"/>
+<rect x="1220.5" y="184.0" width="18.0" height="18.0" fill="rgb(117,117,117)" stroke="#666" stroke-width="1"/>
+<rect x="1238.5" y="184.0" width="18.0" height="18.0" fill="rgb(130,130,130)" stroke="#666" stroke-width="1"/>
+<rect x="1256.5" y="184.0" width="18.0" height="18.0" fill="rgb(204,204,204)" stroke="#666" stroke-width="1"/>
+<rect x="1274.5" y="184.0" width="18.0" height="18.0" fill="rgb(216,216,216)" stroke="#666" stroke-width="1"/>
+<rect x="1184.5" y="202.0" width="18.0" height="18.0" fill="rgb(0,0,0)" stroke="#666" stroke-width="1"/>
+<rect x="1202.5" y="202.0" width="18.0" height="18.0" fill="rgb(73,73,73)" stroke="#666" stroke-width="1"/>
+<rect x="1220.5" y="202.0" width="18.0" height="18.0" fill="rgb(86,86,86)" stroke="#666" stroke-width="1"/>
+<rect x="1238.5" y="202.0" width="18.0" height="18.0" fill="rgb(160,160,160)" stroke="#666" stroke-width="1"/>
+<rect x="1256.5" y="202.0" width="18.0" height="18.0" fill="rgb(173,173,173)" stroke="#666" stroke-width="1"/>
+<rect x="1274.5" y="202.0" width="18.0" height="18.0" fill="rgb(247,247,247)" stroke="#666" stroke-width="1"/>
+<rect x="1184.5" y="220.0" width="18.0" height="18.0" fill="rgb(43,43,43)" stroke="#666" stroke-width="1"/>
+<rect x="1202.5" y="220.0" width="18.0" height="18.0" fill="rgb(56,56,56)" stroke="#666" stroke-width="1"/>
+<rect x="1220.5" y="220.0" width="18.0" height="18.0" fill="rgb(130,130,130)" stroke="#666" stroke-width="1"/>
+<rect x="1238.5" y="220.0" width="18.0" height="18.0" fill="rgb(142,142,142)" stroke="#666" stroke-width="1"/>
+<rect x="1256.5" y="220.0" width="18.0" height="18.0" fill="rgb(216,216,216)" stroke="#666" stroke-width="1"/>
+<rect x="1274.5" y="220.0" width="18.0" height="18.0" fill="rgb(229,229,229)" stroke="#666" stroke-width="1"/>
+<rect x="1184.5" y="238.0" width="18.0" height="18.0" fill="rgb(12,12,12)" stroke="#666" stroke-width="1"/>
+<rect x="1202.5" y="238.0" width="18.0" height="18.0" fill="rgb(86,86,86)" stroke="#666" stroke-width="1"/>
+<rect x="1220.5" y="238.0" width="18.0" height="18.0" fill="rgb(99,99,99)" stroke="#666" stroke-width="1"/>
+<rect x="1238.5" y="238.0" width="18.0" height="18.0" fill="rgb(173,173,173)" stroke="#666" stroke-width="1"/>
+<rect x="1256.5" y="238.0" width="18.0" height="18.0" fill="rgb(186,186,186)" stroke="#666" stroke-width="1"/>
+<rect x="1274.5" y="238.0" width="18.0" height="18.0" fill="rgb(255,255,255)" stroke="#666" stroke-width="1"/>
+<rect x="1184.5" y="256.0" width="18.0" height="18.0" fill="rgb(43,43,43)" stroke="#666" stroke-width="1"/>
+<rect x="1202.5" y="256.0" width="18.0" height="18.0" fill="rgb(56,56,56)" stroke="#666" stroke-width="1"/>
+<rect x="1220.5" y="256.0" width="18.0" height="18.0" fill="rgb(130,130,130)" stroke="#666" stroke-width="1"/>
+<rect x="1238.5" y="256.0" width="18.0" height="18.0" fill="rgb(142,142,142)" stroke="#666" stroke-width="1"/>
+<rect x="1256.5" y="256.0" width="18.0" height="18.0" fill="rgb(216,216,216)" stroke="#666" stroke-width="1"/>
+<rect x="1274.5" y="256.0" width="18.0" height="18.0" fill="rgb(229,229,229)" stroke="#666" stroke-width="1"/>
+<clipPath id="clip1497220"><rect x="1443.5" y="166.0" width="108" height="108"/></clipPath>
+<g clip-path="url(#clip1497220)"><rect x="1443.5" y="166.0" width="108" height="108" fill="#111"/>
+<circle cx="1443.5" cy="166.0" r="34.56" fill="#fff"/>
+<circle cx="1443.5" cy="274.0" r="34.56" fill="#fff"/>
+<circle cx="1551.5" cy="166.0" r="34.56" fill="#fff"/>
+<circle cx="1551.5" cy="274.0" r="34.56" fill="#fff"/>
+</g>
+<rect x="1443.5" y="166.0" width="108" height="108" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="40" y="372" width="1620" height="548" rx="22" fill="#fafafa" stroke="#999" stroke-width="2.5"/>
+<text x="66" y="410" font-size="24" font-weight="bold" fill="#333" text-anchor="start" >FMSA optimization loop</text>
+<text x="66" y="434" font-size="15" font-weight="normal" fill="#555" text-anchor="start" >Factorization Machine surrogate  →  QUBO  →  Simulated Annealing, evaluated by Meep (FDTD)</text>
+<rect x="60" y="456" width="240" height="258" rx="18" fill="#fff" stroke="#1f5f8b" stroke-width="4"/>
+<circle cx="66" cy="460" r="22" fill="#1f5f8b"/>
+<text x="66" y="468" font-size="25" font-weight="bold" fill="#fff" text-anchor="middle" >1</text>
+<text x="188.0" y="498" font-size="19" font-weight="bold" fill="#222" text-anchor="middle" >Initial dataset</text>
+<line x1="303" y1="585.0" x2="316" y2="585.0" stroke="#222" stroke-width="4"/>
+<polygon points="325,585.0 311,577.0 311,593.0" fill="#222"/>
+<rect x="328" y="456" width="240" height="258" rx="18" fill="#fff" stroke="#43a047" stroke-width="4"/>
+<circle cx="334" cy="460" r="22" fill="#43a047"/>
+<text x="334" y="468" font-size="25" font-weight="bold" fill="#fff" text-anchor="middle" >2</text>
+<text x="456.0" y="498" font-size="19" font-weight="bold" fill="#222" text-anchor="middle" >Train FM model</text>
+<line x1="571" y1="585.0" x2="584" y2="585.0" stroke="#222" stroke-width="4"/>
+<polygon points="593,585.0 579,577.0 579,593.0" fill="#222"/>
+<rect x="596" y="456" width="240" height="258" rx="18" fill="#fff" stroke="#f0a500" stroke-width="4"/>
+<circle cx="602" cy="460" r="22" fill="#f0a500"/>
+<text x="602" y="468" font-size="25" font-weight="bold" fill="#fff" text-anchor="middle" >3</text>
+<text x="724.0" y="498" font-size="19" font-weight="bold" fill="#222" text-anchor="middle" >Construct QUBO</text>
+<line x1="839" y1="585.0" x2="852" y2="585.0" stroke="#222" stroke-width="4"/>
+<polygon points="861,585.0 847,577.0 847,593.0" fill="#222"/>
+<rect x="864" y="456" width="240" height="258" rx="18" fill="#fff" stroke="#8e24aa" stroke-width="4"/>
+<circle cx="870" cy="460" r="22" fill="#8e24aa"/>
+<text x="870" y="468" font-size="25" font-weight="bold" fill="#fff" text-anchor="middle" >4</text>
+<text x="992.0" y="498" font-size="19" font-weight="bold" fill="#222" text-anchor="middle" >Search via SA</text>
+<line x1="1107" y1="585.0" x2="1120" y2="585.0" stroke="#222" stroke-width="4"/>
+<polygon points="1129,585.0 1115,577.0 1115,593.0" fill="#222"/>
+<rect x="1132" y="456" width="240" height="258" rx="18" fill="#fff" stroke="#e53935" stroke-width="4"/>
+<circle cx="1138" cy="460" r="22" fill="#e53935"/>
+<text x="1138" y="468" font-size="25" font-weight="bold" fill="#fff" text-anchor="middle" >5</text>
+<text x="1260.0" y="498" font-size="19" font-weight="bold" fill="#222" text-anchor="middle" >FDTD evaluation</text>
+<line x1="1375" y1="585.0" x2="1388" y2="585.0" stroke="#222" stroke-width="4"/>
+<polygon points="1397,585.0 1383,577.0 1383,593.0" fill="#222"/>
+<rect x="1400" y="456" width="240" height="258" rx="18" fill="#fff" stroke="#0277bd" stroke-width="4"/>
+<circle cx="1406" cy="460" r="22" fill="#0277bd"/>
+<text x="1406" y="468" font-size="25" font-weight="bold" fill="#fff" text-anchor="middle" >6</text>
+<text x="1528.0" y="498" font-size="19" font-weight="bold" fill="#222" text-anchor="middle" >Termination check</text>
+<text x="180.0" y="532" font-size="14.5" font-weight="normal" fill="#333" text-anchor="middle" >Random binary samples x<tspan dy="4" font-size="72%">i</tspan></text>
+<text x="180.0" y="553" font-size="14.5" font-weight="normal" fill="#333" text-anchor="middle" >encode  →  geometry</text>
+<text x="180.0" y="574" font-size="14.5" font-weight="normal" fill="#333" text-anchor="middle" >Meep FDTD  →  FoM y<tspan dy="4" font-size="72%">i</tspan></text>
+<text x="180.0" y="642" font-size="17" font-weight="bold" fill="#1f5f8b" text-anchor="middle" >D<tspan dy="4" font-size="72%">0</tspan><tspan dy="-4"> = {(x</tspan><tspan dy="4" font-size="72%">i</tspan><tspan dy="-4">, y</tspan><tspan dy="4" font-size="72%">i</tspan><tspan dy="-4">)}</tspan></text>
+<text x="180.0" y="670" font-size="14" font-weight="normal" fill="#666" text-anchor="middle" >(training dataset)</text>
+<text x="448.0" y="532" font-size="14.5" font-weight="normal" fill="#333" text-anchor="middle" >Fit second-order FM on D<tspan dy="4" font-size="72%">t</tspan></text>
+<text x="448.0" y="553" font-size="14.5" font-weight="normal" fill="#333" text-anchor="middle" >to learn the surrogate</text>
+<text x="448.0" y="598" font-size="15.5" font-weight="bold" fill="#43a047" text-anchor="middle" >ŷ(x) = w<tspan dy="4" font-size="72%">0</tspan><tspan dy="-4"> + Σ w</tspan><tspan dy="4" font-size="72%">i</tspan><tspan dy="-4"> x</tspan><tspan dy="4" font-size="72%">i</tspan></text>
+<text x="448.0" y="622" font-size="15.5" font-weight="bold" fill="#43a047" text-anchor="middle" >+ Σ ⟨v<tspan dy="4" font-size="72%">i</tspan><tspan dy="-4">, v</tspan><tspan dy="4" font-size="72%">j</tspan><tspan dy="-4">⟩ x</tspan><tspan dy="4" font-size="72%">i</tspan><tspan dy="-4"> x</tspan><tspan dy="4" font-size="72%">j</tspan></text>
+<text x="448.0" y="670" font-size="14" font-weight="normal" fill="#666" text-anchor="middle" >learned: w<tspan dy="4" font-size="72%">0</tspan><tspan dy="-4">, w</tspan><tspan dy="4" font-size="72%">i</tspan><tspan dy="-4">, v</tspan><tspan dy="4" font-size="72%">i</tspan></text>
+<text x="716.0" y="532" font-size="14.5" font-weight="normal" fill="#333" text-anchor="middle" >FM parameters  →  Q matrix</text>
+<text x="646.0" y="604" font-size="60" fill="#444" text-anchor="end">[</text>
+<text x="782.0" y="604" font-size="60" fill="#444">]</text>
+<text x="672.0" y="570" font-size="12" font-weight="bold" fill="#b37a00" text-anchor="middle" >Q</text>
+<text x="702.0" y="570" font-size="12" font-weight="bold" fill="#b37a00" text-anchor="middle" >Q</text>
+<text x="732.0" y="570" font-size="12" font-weight="bold" fill="#b37a00" text-anchor="middle" >Q</text>
+<text x="762.0" y="570" font-size="12" font-weight="bold" fill="#b37a00" text-anchor="middle" >…</text>
+<text x="672.0" y="587" font-size="12" font-weight="normal" fill="#999" text-anchor="middle" >0</text>
+<text x="702.0" y="587" font-size="12" font-weight="bold" fill="#b37a00" text-anchor="middle" >Q</text>
+<text x="732.0" y="587" font-size="12" font-weight="bold" fill="#b37a00" text-anchor="middle" >Q</text>
+<text x="762.0" y="587" font-size="12" font-weight="bold" fill="#b37a00" text-anchor="middle" >…</text>
+<text x="672.0" y="604" font-size="12" font-weight="normal" fill="#999" text-anchor="middle" >0</text>
+<text x="702.0" y="604" font-size="12" font-weight="normal" fill="#999" text-anchor="middle" >0</text>
+<text x="732.0" y="604" font-size="12" font-weight="bold" fill="#b37a00" text-anchor="middle" >Q</text>
+<text x="762.0" y="604" font-size="12" font-weight="bold" fill="#b37a00" text-anchor="middle" >…</text>
+<text x="672.0" y="621" font-size="12" font-weight="normal" fill="#999" text-anchor="middle" >0</text>
+<text x="702.0" y="621" font-size="12" font-weight="normal" fill="#999" text-anchor="middle" >0</text>
+<text x="732.0" y="621" font-size="12" font-weight="normal" fill="#999" text-anchor="middle" >0</text>
+<text x="762.0" y="621" font-size="12" font-weight="bold" fill="#b37a00" text-anchor="middle" >…</text>
+<text x="716.0" y="656" font-size="14.5" font-weight="bold" fill="#b37a00" text-anchor="middle" >E(x) = Σ Q<tspan dy="4" font-size="72%">ii</tspan><tspan dy="-4"> x</tspan><tspan dy="4" font-size="72%">i</tspan><tspan dy="-4"> + Σ Q</tspan><tspan dy="4" font-size="72%">ij</tspan><tspan dy="-4"> x</tspan><tspan dy="4" font-size="72%">i</tspan><tspan dy="-4"> x</tspan><tspan dy="4" font-size="72%">j</tspan></text>
+<text x="716.0" y="682" font-size="14" font-weight="normal" fill="#666" text-anchor="middle" >binary quadratic energy</text>
+<text x="984.0" y="532" font-size="14.5" font-weight="normal" fill="#333" text-anchor="middle" >Input: QUBO matrix</text>
+<polyline points="906.0,597.1 907.6,594.7 909.1,592.5 910.7,590.6 912.2,588.8 913.8,587.3 915.4,586.0 916.9,585.0 918.5,584.2 920.0,583.7 921.6,583.4 923.2,583.4 924.7,583.6 926.3,584.1 927.8,584.9 929.4,585.8 931.0,587.0 932.5,588.4 934.1,589.9 935.6,591.7 937.2,593.6 938.8,595.6 940.3,597.7 941.9,599.9 943.4,602.2 945.0,604.5 946.6,606.9 948.1,609.2 949.7,611.5 951.2,613.8 952.8,616.0 954.4,618.2 955.9,620.2 957.5,622.1 959.0,623.8 960.6,625.4 962.2,626.8 963.7,628.1 965.3,629.1 966.8,629.9 968.4,630.5 970.0,630.9 971.5,631.1 973.1,631.1 974.6,630.8 976.2,630.3 977.8,629.6 979.3,628.7 980.9,627.6 982.4,626.3 984.0,624.8 985.6,623.2 987.1,621.4 988.7,619.5 990.2,617.4 991.8,615.3 993.4,613.1 994.9,610.8 996.5,608.5 998.0,606.2 999.6,603.8 1001.2,601.5 1002.7,599.2 1004.3,597.0 1005.8,594.9 1007.4,592.8 1009.0,590.8 1010.5,589.0 1012.1,587.3 1013.6,585.7 1015.2,584.3 1016.8,583.0 1018.3,582.0 1019.9,581.1 1021.4,580.4 1023.0,579.9 1024.6,579.5 1026.1,579.4 1027.7,579.4 1029.2,579.6 1030.8,580.0 1032.4,580.6 1033.9,581.3 1035.5,582.2 1037.0,583.2 1038.6,584.3 1040.2,585.6 1041.7,586.9 1043.3,588.3 1044.8,589.8 1046.4,591.4 1048.0,592.9 1049.5,594.5 1051.1,596.1 1052.6,597.7 1054.2,599.3 1055.8,600.8 1057.3,602.3 1058.9,603.7 1060.4,605.0 1062.0,606.2" fill="none" stroke="#222" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="900.0" y1="640" x2="1072.0" y2="640" stroke="#777" stroke-width="1.5"/>
+<circle cx="931.0" cy="587.0" r="6" fill="#e53935"/>
+<circle cx="1018.3" cy="582.0" r="6" fill="#1565c0"/>
+<path d="M 935.0 581.0 Q 974.6 553.0 1014.3 574.0" fill="none" stroke="#e53935" stroke-width="2" stroke-dasharray="5 4"/>
+<text x="984.0" y="670" font-size="14.5" font-weight="bold" fill="#8e24aa" text-anchor="middle" >Output: candidate x*</text>
+<text x="1252.0" y="532" font-size="14.5" font-weight="normal" fill="#333" text-anchor="middle" >x*  →  encode  →  geometry</text>
+<text x="1252.0" y="553" font-size="14.5" font-weight="normal" fill="#333" text-anchor="middle" >Meep FDTD  →  y<tspan dy="4" font-size="72%">new</tspan></text>
+<text x="1252.0" y="616" font-size="15" font-weight="bold" fill="#e53935" text-anchor="middle" >D<tspan dy="4" font-size="72%">t+1</tspan><tspan dy="-4"> = D</tspan><tspan dy="4" font-size="72%">t</tspan><tspan dy="-4"> ∪ {(x*, y</tspan><tspan dy="4" font-size="72%">new</tspan><tspan dy="-4">)}</tspan></text>
+<text x="1252.0" y="644" font-size="14" font-weight="normal" fill="#666" text-anchor="middle" >add new sample to dataset</text>
+<text x="1252.0" y="670" font-size="14" font-weight="normal" fill="#666" text-anchor="middle" >(simulation only)</text>
+<text x="1520.0" y="530" font-size="15" font-weight="bold" fill="#333" text-anchor="middle" >Max iterations reached?</text>
+<text x="1468.0" y="584" font-size="16" font-weight="bold" fill="#2e7d32" text-anchor="start" >YES</text>
+<text x="1512.0" y="584" font-size="14.5" font-weight="normal" fill="#333" text-anchor="start" >→ output best</text>
+<text x="1468.0" y="612" font-size="16" font-weight="bold" fill="#e53935" text-anchor="start" >NO</text>
+<text x="1512.0" y="612" font-size="14.5" font-weight="normal" fill="#333" text-anchor="start" >→ t ← t + 1</text>
+<text x="1512.0" y="632" font-size="14.5" font-weight="normal" fill="#333" text-anchor="start" >return to step 2</text>
+<circle cx="292" cy="460" r="22" fill="#f0a500" stroke="#fff" stroke-width="3"/>
+<text x="292" y="468" font-size="22" font-weight="bold" fill="#fff" text-anchor="middle" >G</text>
+<circle cx="1364" cy="460" r="22" fill="#f0a500" stroke="#fff" stroke-width="3"/>
+<text x="1364" y="468" font-size="22" font-weight="bold" fill="#fff" text-anchor="middle" >G</text>
+<polyline points="1460,714 1460,758 448.0,758 448.0,720" fill="none" stroke="#444" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="448.0,716 438.0,732 458.0,732" fill="#444"/>
+<text x="924.0" y="744" font-size="17" font-weight="bold" fill="#444" text-anchor="middle" >NO: iteratively update the FM model and training dataset</text>
+<line x1="1600" y1="714" x2="1600" y2="740" stroke="#2e7d32" stroke-width="5"/>
+<polygon points="1600,746 1590,730 1610,730" fill="#2e7d32"/>
+<rect x="1390" y="776" width="250" height="126" rx="16" fill="#fff" stroke="#222" stroke-width="3.5"/>
+<text x="1515" y="808" font-size="16.5" font-weight="bold" fill="#222" text-anchor="middle" >Final optimized structure</text>
+<clipPath id="clip1515858"><rect x="1484.0" y="827.0" width="62" height="62"/></clipPath>
+<g clip-path="url(#clip1515858)"><rect x="1484.0" y="827.0" width="62" height="62" fill="#111"/>
+<circle cx="1484.0" cy="827.0" r="19.84" fill="#fff"/>
+<circle cx="1484.0" cy="889.0" r="19.84" fill="#fff"/>
+<circle cx="1546.0" cy="827.0" r="19.84" fill="#fff"/>
+<circle cx="1546.0" cy="889.0" r="19.84" fill="#fff"/>
+</g>
+<rect x="1484.0" y="827.0" width="62" height="62" fill="none" stroke="#333" stroke-width="2"/>
+<text x="1614" y="744" font-size="1" font-weight="normal" fill="#222" text-anchor="middle" ></text>
+<text x="1610" y="732" font-size="15" font-weight="bold" fill="#2e7d32" text-anchor="start" >YES</text>
+<circle cx="80" cy="868" r="15" fill="#f0a500"/>
+<text x="80" y="874" font-size="16" font-weight="bold" fill="#fff" text-anchor="middle" >G</text>
+<text x="106" y="874" font-size="15" font-weight="normal" fill="#444" text-anchor="start" >Geometry is generated by Gaussian upsampling (top panel)</text>
+<text x="66" y="902" font-size="14" font-weight="normal" fill="#666" text-anchor="start" >FoM: figure of merit.  All evaluations come from Meep (FDTD) simulations.</text>
+</svg>
