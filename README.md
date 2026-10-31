@@ -53,30 +53,29 @@
 <!-- 【放什麼】請對照 Crossing_Tutorial.ipynb，補上： - 八分之一區域的網格大小與設計變數數量 N - 對稱展開發生的順序（展開後再做 Gaussian upsampling，或相反） -->
 
 2. FMSA 最佳化流程
-解碼
-Meep
-訓練資料
-下一批候選解
-設計變數
-幾何結構
-品質指標 FoM
-FM 代理模型
-QUBO
-模擬退火 SA
+<p align="center"> <img src="assets/FMSA_overview.svg" width="90%" alt="FMSA 最佳化流程圖"> 
+<br><em>圖 4. FMSA / QA 最佳化流程：以 FM 代理模型建構 QUBO，經退火搜尋產生候選解，再由 Meep 評估並更新資料集。</em> </p>
 
 每一輪迭代中，FM 代理模型以所有已評估樣本訓練，轉換為 QUBO 後由 SA 求最小值；產生的候選解經解碼成幾何結構，再交給 Meep 評估。
 
 3. 目標元件
 元件	說明
-彎曲波導	<!-- 一句話：優化目標，例如低損耗彎曲 -->
-交叉波導	<!-- 一句話：低損耗、低串擾 -->
-模態分波解多工器	<!-- 一句話：不同模態導向不同輸出埠 -->
-<details> <summary><b>模擬設定</b>（點擊展開）</summary> <!-- 【放什麼】把論文中的模擬參數整理成清單，建議包含： - 求解器：Meep (FDTD) - 平台與材料：SOI、矽與氧化矽折射率 - 設計區域尺寸、模擬解析度 - 工作波長（或波長範圍） - FoM 的定義（例如目標埠的穿透率） -->
-求解器：Meep (FDTD)
-設計區域：
-解析度：
-工作波長：
-FoM 定義：
+交叉波導	Ultra-compact dual-mode Waveguide Crossing <!-- 再補一句：低損耗、低串擾，兩個模態都要滿足 -->
+<details>
+<summary><b>模擬設定</b>（點擊展開）</summary>
+
+| 參數 | 數值 | 說明 |
+|---|---|---|
+| `DPML` | 1.0 | PML 吸收層厚度 |
+| `WG_WIDTH` | 1.0 | 輸入／輸出波導寬度 |
+| `wl_cen` | 1.55 | 中心波長 |
+| `FCEN` | 1 / `wl_cen` | 中心頻率 |
+| `DF` | 0.1 × `FCEN` | 頻率寬度 |
+| `NFREQ` | 1 | 頻率取樣點數 |
+| `resolution` | 40 | 模擬解析度（每單位長度的網格數） |
+
+長度皆為 Meep 單位（1 = 1 μm）。
+
 </details>
 
 ## 結果
