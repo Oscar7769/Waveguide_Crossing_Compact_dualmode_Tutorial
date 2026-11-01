@@ -1,0 +1,14 @@
+numpy==2.0.2
+scipy==1.13.1
+matplotlib==3.9.4
+torch==2.6.0
+mpi4py==4.1.0
+dimod==0.12.21
+dwave-samplers==1.6.0
+ 
+# 選用：使用 D-Wave 量子退火器（QA）時才需要
+# dwave-system==1.33.0
+ 
+# 選用：執行 Crossing_Tutorial.ipynb 時需要
+# jupyterlab==4.4.4
+# ipykernel==6.31.0
