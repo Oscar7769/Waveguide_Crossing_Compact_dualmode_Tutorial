@@ -1,4 +1,4 @@
-<div align="center"> <h1>Ultra-compact dual-mode Waveguide Crossing <br> via FMSA & Gaussian Upsampling</h1> <p> <strong>利用因子分解機結合模擬退火/量子退火 (Factorization Machine Quantum/Simulated Annealing)演算法<br> 進行交叉型波導結構之反向設計。</strong> </p> <p> <a href="#概述">概述</a> · <a href="#方法">方法</a> · <a href="#結果">結果</a> · <a href="#教學">教學</a> · <a href="#重現方式">重現方式</a> · <a href="#引用">引用</a> </p> <p> <img src="https://img.shields.io/badge/Simulation-Meep%20(FDTD)-blue" alt="Meep"> <img src="https://img.shields.io/badge/Optimizer-FM%20%2B%20QUBO%20%2B%20SA-purple" alt="FMSA"> <img src="https://img.shields.io/badge/Python-3.9%2B-green" alt="Python"> </p> 
+<div align="center"> <h1>Ultra-compact dual-mode Waveguide Crossing <br> via FMSA & Gaussian Upsampling</h1> <p> <strong>利用因子分解機結合模擬退火/量子退火 (Factorization Machine Quantum/Simulated Annealing)演算法<br> 進行交叉型波導結構之反向設計。</strong> </p> <p> <a href="#概述">概述</a> · <a href="#主要貢獻">主要貢獻</a> · <a href="#方法">方法</a> · <a href="#結果">結果</a> · <a href="#教學">教學</a> · <a href="#引用">引用</a> </p> <p> <img src="https://img.shields.io/badge/Simulation-Meep%20(FDTD)-blue" alt="Meep"> <img src="https://img.shields.io/badge/Optimizer-FM%20%2B%20QUBO%20%2B%20SA-purple" alt="FMSA"> <img src="https://img.shields.io/badge/Python-3.9%2B-green" alt="Python"> </p> 
 
 <img src="assets/overview.svg" width="100%" alt="結構編碼與 FMSA/QA 框架總覽">
 
@@ -59,8 +59,11 @@
 每一輪迭代中，FM 代理模型以所有已評估樣本訓練，轉換為 QUBO 後由 SA 求最小值；產生的候選解經解碼成幾何結構，再交給 Meep 評估。
 
 3. 目標元件
-元件	說明
-交叉波導	Ultra-compact dual-mode Waveguide Crossing <!-- 再補一句：低損耗、低串擾，兩個模態都要滿足 -->
+
+| 元件 | 說明 |
+|---|---|
+| 交叉波導 | Ultra-compact dual-mode waveguide crossing | 
+<!-- 再補一句：低損耗、低串擾，兩個模態都要滿足 -->
 <details>
 <summary><b>模擬設定</b>（點擊展開）</summary>
 
@@ -78,70 +81,173 @@
 
 </details>
 
-## 結果
-收斂曲線
-<!-- 【放什麼】最重要的一張圖：橫軸是模擬次數，縱軸是目前最佳 FoM， 三條線分別是 GU、Fourier、β-VAE。每個元件一張，或用子圖並排。 若有多次獨立重跑，畫平均值加標準差陰影。 --> <p align="center"> <img src="assets/convergence.png" width="80%" alt="GU、Fourier、β-VAE 編碼收斂比較"> <br><em>圖 2. 各編碼方式的最佳 FoM 對模擬次數。</em> </p>
-最終性能
-<!-- 【放什麼】表格填論文中的實際數字。 欄位：元件、編碼方式、設計變數數量、最終 FoM（可再加模擬次數）。 每個元件的最佳那一格用 **粗體**。 -->
-元件	編碼	設計變數數	FoM
-彎曲波導	GU		
-彎曲波導	Fourier		
-彎曲波導	β-VAE		
-交叉波導	GU		
-交叉波導	Fourier		
-交叉波導	β-VAE		
-模態分波解多工器	GU		
-模態分波解多工器	Fourier		
-模態分波解多工器	β-VAE		
-最佳化後的設計
-<!-- 【放什麼】三個元件各自最佳結構的圖，最好附上場分佈（Ez 或 |E|）。 可以合成一張並排大圖，或每個元件一張。 有最佳化過程動畫的話，可放 GIF（10 MB 以內）。 --> <p align="center"> <img src="assets/designs.png" width="90%" alt="最佳化後的元件結構與場分佈"> <br><em>圖 3. 最佳化後的元件結構與場分佈（Meep）。</em> </p> <details> <summary><b>主要觀察</b>（點擊展開）</summary> <!-- 【放什麼】3–4 點，只寫結果支持的結論： - 哪種編碼收斂最快 - 哪種編碼最終 FoM 最好 - 設計維度與表達能力的取捨 - 不同元件上結論是否一致 -->
+<details>
+<summary><b>最佳化設定</b>（點擊展開）</summary>
+
+| 類別 | 項目 | 數值 |
+|---|---|---|
+| 設計空間 | 二元變數（八分之一區域） | (1+12)*12/2 = 78 |
+| | 完整網格 | 24 × 24 |
+| 資料集 | 初始樣本 | 1000 筆隨機二元變數 |
+| | 迭代 | 100 輪，每輪新增 30 筆 |
+| | 模擬預算 | 最多 1000 + 100 × 30 = 4000 組設計，每組對 TE₀ 與 TE₁ 各模擬一次 |
+| FM 代理模型 | 因數維度 K | 8 |
+| | 訓練 | Adam，學習率 1e-3，1000 epochs |
+| 退火搜尋 | 取樣器 | SA（`num_reads` = 1500，`num_sweeps` = 1000） |
+| 結構編碼 | Gaussian kernel | 5 × 5，σ = 1.0 |
+| | tanh 投影 | β = 50，η = 0.5 |
+
+程式預設使用 SA，也可切換為 QA（D-Wave）；QA 失敗時會退回 SA。
+
 </details>
+
+## 結果
+
+所有結果皆來自 Meep 模擬，未進行元件製作或實測。初始隨機樣本以及 SA／QA 的求解過程皆帶有隨機性，因此每次執行不保證得到相同的解，也不保證最終解為全域最佳解。依最佳化理論，本文所稱的「最佳結構」僅指目前找到的最佳解（best-found solution），即所有已評估樣本中 FoM 最低者，而非可證明的最佳解。
+
+
+
+#### 收斂過程
+
+FoM = 1 − 平均穿透率，越小越好。
+
+<p align="center">
+  <img src="fom_evolution.png" width="48%" alt="最佳 FoM 對迭代次數">
+  <img src="fom_trajectory.png" width="48%" alt="所有評估樣本的 FoM 軌跡">
+  <br><em>圖 5. (a) 最佳 FoM 對迭代次數；(b) 所有評估樣本的 FoM，紅色為初始隨機樣本，藍色為 FMSA 產生的樣本。</em>
+</p>
+
+#### 最佳結構
+
+<p align="center">
+  <img src="best_config_24x24.png" width="40%" alt="最佳二元配置">
+  <img src="Smoothed_Binary_Structure.png" width="40%" alt="平滑後的二元結構">
+  <br><em>圖 6. (a) 最佳的 24 × 24 二元配置；(b) 經 Gaussian upsampling 後 Meep 中的實際結構。</em>
+</p>
+
+#### 場分佈
+
+<p align="center">
+  <img src="Optimized_Final_Structure_TE0.png" width="42%" alt="TE0 場分佈">
+  <img src="Optimized_Final_Structure_TE1.png" width="42%" alt="TE1 場分佈">
+  <br><em>圖 7. 最佳結構在中心波長 1.55 μm 的場強度 |E|²：(a) TE₀；(b) TE₁。</em>
+</p>
+
+#### 穿透頻譜
+
+<p align="center">
+  <img src="Spectrum_2.4um_Transmission_Spectrum_TE0.png" width="42%" alt="TE0 穿透頻譜">
+  <img src="Spectrum_2.4um_Transmission_Spectrum_TE1.png" width="42%" alt="TE1 穿透頻譜">
+  <br><em>圖 8. 通過埠穿透率（dB）：(a) TE₀；(b) TE₁。</em>
+</p>
+
+頻譜由 1.52、1.56、1.60 μm 三個取樣點平滑內插而成，並非連續掃頻的結果。
+
+| 模態 | 1.52 μm | 1.56 μm | 1.60 μm |
+|---|:---:|:---:|:---:|
+| TE₀ | -0.296 dB（0.933） | -0.333 dB（0.926） | -0.450 dB（0.901） |
+| TE₁ | -0.436 dB（0.904） | -0.458 dB（0.899） | -0.666 dB（0.857） |
+
+Best FoM：0.0960 
+
+#### 計算時間
+
+<p align="center">
+  <img src="time_distribution.png" width="60%" alt="執行時間分佈">
+  <br><em>圖 9. 總執行時間的分佈：FM 訓練、退火取樣、FDTD 模擬與其他。</em>
+</p>
+
 ## 教學
-
+ 
 本 repo 依元件分成獨立的 Tutorial，每個 Tutorial 都包含說明文件與可直接執行的模擬程式。
+ 
+### Waveguide Crossing Tutorial（Ultra-compact dual-mode）
+ 
+此 Tutorial 針對 **Ultra-compact dual-mode Waveguide Crossing（兼容超緊湊及雙模態的交叉型波導）** 的設計與實作。
+ 
+#### 內容簡介
+ 
+* **`Crossing_Tutorial.ipynb`**：Jupyter Notebook 教學，說明波導交叉的幾何設計原理，並以圖片（如八分之一對稱結構）輔助解釋如何簡化設計變數與建立結構。
+* **`WG_GU_1000_10x10_D2_2mode_40.py`**：隨附的 Python 程式碼，包含建立 $2.4\mu m \times 2.4\mu m$ 尺寸波導交叉所需的參數與函數，用於實際執行設計模擬。
+* **`factorization_machine`**：必須與 `Crossing_Tutorial.ipynb` 或 `WG_GU_1000_10x10_D2_2mode_40.py` 放在同一資料夾才可執行。
+ 
+#### 執行
 
-Waveguide Crossing Tutorial（Ultra-compact dual-mode）
+在終端機（Terminal）輸入：
 
-此 Tutorial 針對 Ultra-compact dual-mode Waveguide Crossing（兼容超緊湊及雙模態的交叉型波導） 的設計與實作。
+```bash
+mpirun -np <核心數> python <py檔名>.py > <自定義log名>.log 2>&1
+```
 
-內容簡介
-Crossing_Tutorial.ipynb：Jupyter Notebook 教學，說明波導交叉的幾何設計原理，並以圖片（如八分之一對稱結構）輔助解釋如何簡化設計變數與建立結構。
-Waveguide_Crossing_2.4x2.4.py：隨附的 Python 程式碼，包含建立 $2.4\mu m \times 2.4\mu m$ 尺寸波導交叉所需的參數與函數，用於實際執行設計模擬。
-factorization machine：必須與 Crossing_Tutorial.ipynb 或 Waveguide_Crossing_2.4x2.4.py 放在同一資料夾才可執行。
-執行
+例如，以 31 個核心執行交叉波導的最佳化，並把輸出寫入 `crossing.log`：
 
-所有模擬皆以 MPI 平行執行，指令格式見上方教學。
+```bash
+mpirun -np 31 python WG_GU_1000_10x10_D2_2mode_40.py > crossing.log 2>&1
+```
 
-<!-- 【放什麼】若 β-VAE 需要預訓練權重，在這裡補一行說明放在哪裡、怎麼下載或重新訓練。 另外請確認 Meep 需編譯 MPI 版本（pymeep 的 parallel build）。 -->
-專案結構
-text
+**指令說明**
+
+| 片段 | 說明 |
+|---|---|
+| `mpirun -np <核心數>` | 以 MPI 啟動指定數量的行程（process），`-np` 後面的數字就是行程數 |
+| `python <py檔名>.py` | 每個行程都執行同一支 Python 程式 |
+| `> <自定義log名>.log` | 把原本印在螢幕上的輸出（迭代進度、FoM 等）寫入自訂的 log 檔 |
+| `2>&1` | 把錯誤訊息也導向同一個 log 檔，程式出錯時不會漏掉訊息 |
+
+**平行運作方式**
+
+- 編號 0 的行程是 **master**：產生資料集、訓練 FM、建構 QUBO、執行 SA／QA，並分派模擬工作、整理結果。
+- 其餘行程是 **worker**：各自領取一個「設計 + 模態（TE₀ 或 TE₁）」的工作，執行一次 Meep 模擬後回傳 master。
+- 因此 `-np 31` 代表 1 個 master 加 30 個 worker，**行程數至少要 2**。每輪新增 30 組設計，每組需模擬 TE₀ 與 TE₁，共 60 個模擬工作，worker 超過 60 個時不會再變快。
+- 核心數請依機器的實體核心數設定，不要超過。
+
+**輸出**
+
+結果會寫入執行目錄下的 `Results_Crossing/<工作名稱>_<時間>/`，包含各種圖片與 `final_result.json`。工作名稱可用 `--name` 指定：
+
+`>` 會覆蓋同名的 log 檔；若要保留舊內容並接續寫入，改用 `>>`。
+ 
+### 專案結構
+ 
+```text
 .
 ├── assets/                          # README 使用的圖片
-├── factorization machine            # FM 代理模型（需與下列檔案放同一資料夾）
+├── factorization machine            # Factorization Machine 模型（需與下列檔案放同一資料夾）
 ├── Crossing_Tutorial.ipynb          # 交叉波導教學 Notebook
-├── Waveguide_Crossing_2.4x2.4.py    # 2.4 × 2.4 μm 交叉波導模擬程式
+├── WG_GU_1000_10x10_D2_2mode_40.py    # 2.4 × 2.4 μm 交叉波導模擬程式
 ├── requirements.txt
 └── README.md
-<!-- 【放什麼】換成你 repo 真正的資料夾結構，之後加了其他元件的 Tutorial 也一併補上。 -->
+```
+
 ## 引用
-
+ 
+本專案基於我的碩士論文研究：
+ 
+- **論文題目：** 可部署於量子退火器之矽光子元件反向設計：因數分解機代理模型最佳化
+- **英文題目：** Quantum-Annealer-Compatible Inverse Design of Silicon Photonic Devices Using Factorization-Machine Surrogate Optimization
+- **作者：** 蔡祐昕（Tsai, Yu-Hsin）
+- **學校：** 國立陽明交通大學
+- **出版年：** 2026（民國 115 年）
+- 論文除交叉波導外，也包含彎曲波導與模態分波解多工器的設計；本 repo 以交叉波導作為教學與重現的範例。
+ 
 若本專案對你的研究有幫助，請引用：
+ 
+<summary>BibTeX</summary>
 
-<details> <summary>BibTeX</summary>
-bibtex
-@mastersthesis{yourname2026structural,
+```bibtex
+@mastersthesis{tsai2026quantum,
   title  = {Quantum-Annealer-Compatible Inverse Design of Silicon Photonic
             Devices Using Factorization-Machine Surrogate Optimization},
-  author = {你的英文姓名},
-  school = {學校英文名稱},
-  year   = {2026}
+  author = {Tsai, Yu-Hsin},
+  school = {National Yang Ming Chiao Tung University},
+  year   = {2026},
+  type   = {Master's thesis},
+  url    = {https://thesis.lib.nycu.edu.tw/bitstreams/445eff1f-6bb6-4a86-8107-85fb06cd2723/download},
+  note   = {Chinese title: 可部署於量子退火器之矽光子元件反向設計：因數分解機代理模型最佳化}
 }
-</details> <!-- 【放什麼】作者英文姓名、學校英文名稱（以論文封面為準）。 若論文有公開連結（學位論文系統、arXiv），在 BibTeX 加 url 欄位。 -->
-授權
+```
 
-本專案以 MIT License 釋出。
-
-<!-- 【放什麼】若實驗室或教授有規定授權方式，依規定修改，並在 repo 根目錄放對應的 LICENSE 檔。 -->
-致謝
-感謝指導教授與實驗室成員的指導與討論。
-感謝 Meep 提供 FDTD 模擬框架。
+## 致謝
+ 
+- 感謝指導教授與實驗室成員的指導與討論。
+- 感謝 MEEP 提供 FDTD 模擬框架。
